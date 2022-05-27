@@ -1,3 +1,18 @@
 /*need some hover commands
 /*need some container and letter colors
-/*need a bit of overall styling
+/*need a bit of overall styling*/
+
+h1 {
+    display: center;
+    float: inherit;
+    text-align: center;
+}
+#left{
+    text-align: left;
+    
+}
+
+#right{
+    text-align: right;
+    display: inline-block;
+}
