@@ -6,13 +6,43 @@
 
 //first things first-HEADER HEADER HEADER!!!!!
 //work on a high score link
-var welcome = 
-var userName = 
 
-function welcome() {
-    prompt = ("Welcome to Questionaire! Please enter your initials")
-    
-}
+
+// want to create a prompt on page open stating welcome. get 
+//need to display questions with answers
+const questionArr [
+    {
+      text: 'What is my favorite color?';
+      a: "Yellow";
+      b: "Green";
+      c: "Blue";
+      d: "Whats a color?"
+      correctAnswer: 'c'
+
+    };
+    {
+      text: 'What is my favorite sport?';
+      a: 'Soccer';
+      b: 'Football';
+      c: 'Zumba';
+      d: 'Underwater Basket weaving';
+      correctAnswer: 'a'
+    };
+    {
+      text: 'Do I like pizza?';
+      a: 'Duh!';
+      b: 'Like? More like LUV!';
+      c: "I dont like pizza....said no one ever...";
+      d: "Is that a dessert?";
+      correctAnswer: 'a';
+    }
+
+];
+
+const container = document.createElement('div');
+
+
+
 
 
 
@@ -20,7 +50,7 @@ function welcome() {
 
 //work on a coundown timer
 var countDown = document.querySelector("#timer");
-var timeEl = 10;
+var timeEl = 100;
 countDown.textContent= timeEl;
 var intervalID;
 
