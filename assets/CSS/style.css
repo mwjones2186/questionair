@@ -2,6 +2,14 @@
 /*need some container and letter colors
 /*need a bit of overall styling*/
 
+/*Nav bar needs Highscore link on left, title centered and countdown timer in right corner*/
+
+/*main needs centered large question and 4 separate divs for answers*/
+
+/* Footer needs to be centered with some styling*/
+
+/* misc styles, need background and colors, ideal text and sizing, bootstrap??*/
+
 h1 {
     display: center;
     float: inherit;

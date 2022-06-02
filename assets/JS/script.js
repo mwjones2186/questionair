@@ -10,7 +10,7 @@
 
 // want to create a prompt on page open stating welcome. get 
 //need to display questions with answers
-const questionArr [
+var questionArr [
     {
       text: 'What is my favorite color?';
       a: "Yellow";
@@ -82,6 +82,6 @@ function stop(){
 
 
 // some of the codes i need to create 
-//while loops
-//for loops
+//while loops?
+//for loops?
 //
