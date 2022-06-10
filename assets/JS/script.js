@@ -115,7 +115,7 @@ function start() {
 function showQuestion() {
   for (let i = 0; i < questionArr.question.length; i++) {
     const element = questionArr[i];
-  
+  //this for loop is not working. the below code is working without the [i]and only with a [0,1,etc]
   }
   questionId.textContent = questionArr[i].question;
   button1Id.textContent = questionArr[i].answers[0];
