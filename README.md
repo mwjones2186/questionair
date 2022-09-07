@@ -19,15 +19,23 @@ Once the questionaire is complete, the user will be prompted to imput thier name
 Below is a link to take you to the website:
 https://mwjones2186.github.io/questionaire/
 
-//add pics of opening prompt
+##Screenshots of app
 
-//display pics of progress, showing correct and incorrect answers.
+Picture of homepage
+![quest1](https://user-images.githubusercontent.com/97492542/188951724-b4e2cabf-f9ae-4194-8c50-6210fd099570.png)
 
-//display pics of name imput at end for leaderboard content
+Picture of questions rendering
+![quest2](https://user-images.githubusercontent.com/97492542/188951729-6930bee8-9d8d-463a-b786-0e71ee42a909.png)
 
-//display pics of leaderboard
+Picture of name input for highscore page
+![quest3](https://user-images.githubusercontent.com/97492542/188951727-dac14032-1096-4ee2-8629-67853003cbe4.png)
 
-//
+Picture of highscore page with highscores
+![quest4](https://user-images.githubusercontent.com/97492542/188951726-f7996073-6a97-472f-b0b4-123d605a46a0.png)
+
+##Video demonstration of code working 
+https://drive.google.com/file/d/1lRQOwlsdA8odmblFell_1t3Mf26DSwZH/view
+
 
 Thank you! 
 
