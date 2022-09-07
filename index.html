@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 
 
 <body>
     <header id="inline">
         <!--Need a "high score" nav bar-->
-        <h1>Questionaire</h1>
-        
-        <nav>
-            <ul id="">
-                <li>
-                    <h3><a href='javascript:showHighScore()'>View High Score</span></a></h3>
-                </li>
-            </ul>
-            <ul id="">
-                <li>
-                    <h3>Timer: <span id='timer'></span></h3>
-                  
-                </li>
-            </ul>
 
-        </nav>
+        <!-- <nav> -->
+        <!-- <ul id=""> -->
+        <!-- <li> -->
+        <a href='./highscore.html'>
+            <h3>View High Score</h3>
+        </a>
+        <!-- </li> -->
+        <!-- </ul> -->
+        <!-- <ul id=""> -->
+        <!-- <li> -->
+        <h3>Timer: <span id='timer'>0</span></h3>
+
+        <!-- </li> -->
+        <!-- </ul> -->
+
+        <!-- </nav> -->
         <!--Need a countdown timer-->
     </header>
-    
+
     <main>
-        <button id="start" onClick="start()">Start</button>
-        <div id="questionForm">
+
+        <div id="start">
+            <h1>Questionaire</h1>
+            <button id="startBtn">Start</button>
+        </div>
+
+        <div id="questionForm" class="hide">
             <h1 id="question"></h1>
-            <div><button id="button1" onClick="answer('a')"></button></div>
-            <div><button id="button2" onClick="answer('b')"></button></div>
+            <div id="choices"></div>
+            <!-- <div><button id="button2" onClick="answer('b')"></button></div>
             <div><button id="button3" onClick="answer('c')"></button></div>
             <div><button id="button4" onClick="answer('d')"></button></div>
-            <hr/>
-            <h2 id="answerStatus"></h2>
+            <hr />
+            <h2 id="answerStatus"></h2> -->
         </div>
-        <div id="divHighScore">
-            <div id="yourScore"></div>
-            <div id="yourInitials">
-                Initials: <input type="text" id="initials"/>
-                <button onClick ="saveInitials()">Submit</button>
-            </div>
+
+        <div id="divHighScore" class="hide">
+            <h3 id="yourScore"></h3>
+
+            <p>Initials: <input type="text" id="initials" />
+
+                <button id="saveScore">Submit</button>
+            </p>
+
         </div>
         <div id="viewHighScores">
-            
+
         </div>
     </main>
 
-    <footer>  
-        <!--Made with love and sweat and lots and lots of tears!!!-->     
+    <footer>
+        <!--Made with love and sweat and lots and lots of tears!!!-->
     </footer>
-<script src="./assets/JS/script.js"></script>
-    
+    <script src="./assets/JS/script.js"></script>
+
 
 </body>
+
 </html>

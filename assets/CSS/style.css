@@ -1,7 +1,10 @@
 /*need some hover commands
 /*need some container and letter colors
 /*need a bit of overall styling*/
-
+header{
+    display: flex;
+    justify-content: space-between;
+}
 /*Nav bar needs Highscore link on left, title centered and countdown timer in right corner*/
 
 /*main needs centered large question and 4 separate divs for answers*/
@@ -29,4 +32,8 @@ main{
 button {
     width: 300px;
     background-color: aqua;
+}
+
+.hide{
+    display: none;
 }
